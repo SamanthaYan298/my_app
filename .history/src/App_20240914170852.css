@@ -30,7 +30,6 @@
   cursor: pointer;
   position: relative;
   padding-right: 30px;
-  list-style: none;
 }
 
 .categories summary::after {
@@ -41,8 +40,4 @@
 
 .categories[open] summary{
   background-color: rgb(235, 235, 235);
-}
-
-.categories[open] summary::after {
-  content: '-';
 }

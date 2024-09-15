@@ -13,7 +13,7 @@ function App() {
         <div>
           <h2>Hayao Miyazaki's albums</h2>
           <details className='categories'>
-            <summary>Hayao Miyazaki</summary>
+            <summary className='albums'>Hayao Miyazaki</summary>
             <ol>
               <li>Japanese animator</li>
               <li>Filmmaker</li>

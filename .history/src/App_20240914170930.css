@@ -22,6 +22,7 @@
   margin-bottom: 10px;
   font-size: 18px;
   position: relative;
+  list-style: none;
 }
 
 .categories summary {
@@ -30,7 +31,6 @@
   cursor: pointer;
   position: relative;
   padding-right: 30px;
-  list-style: none;
 }
 
 .categories summary::after {

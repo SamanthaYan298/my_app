@@ -8,7 +8,7 @@ function App() {
         <h1>My Tunes</h1>
         <div className="all">
         <div className='photo'>
-          <img src="https://www.hollywoodreporter.com/wp-content/uploads/2013/09/hayao_miyazaki_-_h_-_2013.jpg?w=1024" alt="Hayao Miyazaki" height={400} width={300}/>
+          <img src="https://www.hollywoodreporter.com/wp-content/uploads/2013/09/hayao_miyazaki_-_h_-_2013.jpg?w=1024" alt="Hayao Miyazaki" height={400} width={330}/>
         </div>
         <div>
           <h2>Hayao Miyazaki's albums</h2>

@@ -21,28 +21,16 @@
 .categories {
   margin-bottom: 10px;
   font-size: 18px;
-  position: relative;
-}
-
-.categories summary {
-  border-bottom: 2px solid rgb(235, 235, 235);
-  padding-bottom: 10px;
-  cursor: pointer;
-  position: relative;
-  padding-right: 30px;
-  list-style: none;
 }
 
 .categories summary::after {
-  content: '+';
-  position: absolute;
-  right: 10px;
-}
-
-.categories[open] summary{
-  background-color: rgb(235, 235, 235);
+  border-bottom: 2px solid rgb(235, 235, 235);
+  padding-bottom: 10px;
+  list-style: none;
+  content: 'Hayao Miyazaki         +';
 }
 
 .categories[open] summary::after {
-  content: '-';
+  background-color: rgb(235, 235, 235);
+  content: 'Hayao Miyazaki's movies-';
 }

@@ -30,7 +30,6 @@
   cursor: pointer;
   position: relative;
   padding-right: 30px;
-  list-style: none;
 }
 
 .categories summary::after {
